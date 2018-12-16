@@ -1,0 +1,152 @@
+body {
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+/* NAVIGATION*/
+
+nav {
+	display: inline-block;
+	width: 100%;
+}
+
+nav ul {	
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 15px;
+}
+
+nav li {
+	display: inline-block;
+	float: left;
+	font-size: .8rem;
+	padding: 20px 7px;
+}
+
+nav li a:link, a:visited {
+  text-decoration: none;
+  color: #222;
+}
+
+nav li a:hover, a:active {
+  text-decoration: underline;
+}
+
+.floatright {
+	float: right;
+}
+
+.signinbutton:link {
+	position: inherit;
+  background-color: #3284FF;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 7px 15px;
+}
+
+.signinbutton:hover {
+	background-color: #008CBA;
+  text-decoration: none;
+}
+
+.signinbutton:active {
+	background-color: #008CBA;
+  text-decoration: none;
+}
+
+/* SEARCH BAR */
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 140px;
+}
+
+#search {
+	margin: 30px;
+	width: 540px;
+	padding: 12px;
+	border: 1px #ddd solid;
+	box-shadow: 1px 2px 10px #ccc;
+}
+
+.center {
+  display: block;
+  text-align: center;
+}
+
+.searchbutton {
+	position: inherit;
+  background-color: #f2f2f2;
+  color: #777;
+  font-weight: bold;
+  border: 1px #fff solid;
+  border-radius: 2px;
+  text-decoration: none;
+  margin: 2px;
+  padding: 10px 15px;
+}
+
+.searchbutton:hover {
+	background-color: #f2f2f2;
+	color: #555;
+	border: 1px #ddd solid;
+}
+
+.searchbutton:active {
+	background-color: #f2f2f2;
+	color: #555;
+	border: 1px #008CBA solid;
+}
+
+p {
+	font-size: .8rem;
+	margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #f2f2f2;
+	position: fixed;
+	display: inline-block;
+	left: 0px;
+  bottom: 0px;
+	width: 100%;
+	border-top: 1px #ddd solid;
+}
+
+footer p {
+	color: #555;
+	font-size: .9rem;
+	margin: 0px;
+	padding: 12px 25px;
+	border-bottom: 1px #ddd solid;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 10px;
+}
+
+footer li {
+	display: inline-block;
+	float: left;
+	padding: 12px 15px;
+	font-size: .8rem;
+}
+
+footer li a:link, a:visited {
+  text-decoration: none;
+  color: #555;
+}
+
+footer li a:hover, a:active {
+  text-decoration: underline;
+}
